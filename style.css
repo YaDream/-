@@ -1,0 +1,47 @@
+/* 基本設置 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow; /* 設定整頁背景為淺黃色 */
+}
+
+/* 主要容器 */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* 學號與姓名 */
+#student-id, #name {
+    background-color: #F4E1C1; /* 淺棕色背景 */
+    color: #6F4F37; /* 咖啡色文字 */
+    border: 2px solid #6F4F37; /* 咖啡色邊框 */
+    border-radius: 6px; /* 圓角化，圓角半徑6px */
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 個人相片 */
+#photo img {
+    width: 400px;
+    height: 300px;
+    border: 3px solid green; /* 綠色邊框 */
+    border-radius: 10px; /* 圓角化，圓角半徑10px */
+}
+
+/* 按鈕樣式 */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}

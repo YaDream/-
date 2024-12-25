@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人收藏</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body style="background-color: pink;"> <!-- 設定背景為粉紅色 -->
+
+    <div class="container">
+        <h1>我的個人收藏</h1>
+
+        <!-- 收藏物品圖片 -->
+        <div id="item">
+            <img id="image" src="item1.jpg" alt="收藏物品">
+        </div>
+
+        <!-- 收藏物品切換按鈕 -->
+        <div class="button-container">
+            <button onclick="changeImage('prev')" class="button">上一項收藏</button>
+            <button onclick="changeImage('next')" class="button">下一項收藏</button>
+        </div>
+    </div>
+
+</body>
+</html>
